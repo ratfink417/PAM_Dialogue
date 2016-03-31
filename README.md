@@ -11,15 +11,25 @@ default.
 #Installing
 
 **install the pam-dev libraries**
+
 `apt-get update                               `
+
 `apt-get install build-essential libpam0g-dev `
+
 **Using the libraries**
+
  download the header files and add them to your path
+
 **Compiling the example modules**
-`gcc -fPIC -c my_pam.c                                `
+
+`gcc -fPIC -c my_pam.c`
+
 `ld -x --shared -o /lib/security/mypam.so 2ndfactor.o `
 
 #To Do
+
 1:create the dialog interface with the conversation function
+
 2:add links to module writing guides
+
 3:example modules
