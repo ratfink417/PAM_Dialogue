@@ -32,4 +32,4 @@ default.
 
 2:add links to module writing guides
 
-3:example modules
+3:newpam example never passes PAM_SUCCESS
