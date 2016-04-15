@@ -33,3 +33,5 @@ default.
 2:add links to module writing guides
 
 3:newpam example never passes PAM_SUCCESS
+
+4:take instructions off the page and write a makefile like normal people do
