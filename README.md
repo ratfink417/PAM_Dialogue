@@ -30,4 +30,4 @@ default.
 
 3:newpam example never passes PAM_SUCCESS
 
-4:take instructions off the page and write a makefile like normal people do
+4:create a debug branch of the code
