@@ -16,7 +16,7 @@ default.
 
 `apt-get install build-essential libpam0g-dev `
 
-**Using the libraries**
+#Using the libraries
 
  download the header files and add them to your path, include it in your next pam module
  call dialog function in your module and base your pam config on how a correct or wrong answer to the question asked
