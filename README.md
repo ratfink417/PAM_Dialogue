@@ -8,7 +8,7 @@ you to stack modules that handle your access differently depending on the result
 requesting user/service against each module. PAM is used for a lot of applications as a
 default.
 
-#Installing
+#Configuration
 
 **install the pam-dev libraries**
 
@@ -18,13 +18,9 @@ default.
 
 **Using the libraries**
 
- download the header files and add them to your path
-
-**Compiling the example modules**
-
-`gcc -fPIC -c my_pam.c`
-
-`ld -x --shared -o /lib/security/mypam.so 2ndfactor.o `
+ download the header files and add them to your path, include it in your next pam module
+ call dialog function in your module and base your pam config on how a correct or wrong answer to the question asked
+ by the dialog should be processed.
 
 #To Do
 
