@@ -15,7 +15,7 @@ struct pam_response *resp;
 pmsg[0] = &msg[0];
 msg[0].msg_style = PAM_PROMPT_ECHO_ON; // messages from the conversation will be echoed out to the screen
 msg[0].msg = question;
-resp = NULL;//have an empty response at the start of each call to this fcunction
+resp = NULL;//have an empty response at the start of each call to this function
 
 
 retval = pam_get_item(pamh, PAM_CONV, (const void**) &conv); //populate the handle with data relavant to the application calling this .so
