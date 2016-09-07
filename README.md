@@ -24,12 +24,8 @@ default.
 
 #To Do
 
-1:create the dialog interface with the conversation function
+1:add links to module writing guides
 
-2:add links to module writing guides
+2:create a debug branch
 
-3:newpam example never passes PAM_SUCCESS
-
-4:create a debug branch of the code
-
-5:write a configure script that installs libpam and essentials if needed
+3:write a configure script that installs libpam and essentials if needed
