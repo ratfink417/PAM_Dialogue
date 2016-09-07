@@ -31,3 +31,5 @@ default.
 3:newpam example never passes PAM_SUCCESS
 
 4:create a debug branch of the code
+
+5:write a configure script that installs libpam and essentials if needed
