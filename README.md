@@ -29,3 +29,5 @@ default.
 2:create a debug branch
 
 3:write a configure script that installs libpam and essentials if needed
+
+Test of a push
